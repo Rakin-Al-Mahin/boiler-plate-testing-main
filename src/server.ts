@@ -7,7 +7,7 @@ async function main() {
   console.log('Connected to MongoDB');
   // logger.info('Connected to MongoDB');
   app.listen(config.port, () => {
-    console.log(`Server running at portt ${config.port}`);
+    console.log(`Server running at port ${config.port}`);
   });
 }
 main();
